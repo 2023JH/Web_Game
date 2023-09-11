@@ -14,12 +14,12 @@ function init() {
 
     // 눈 그리기 (왼쪽)
     ctx.beginPath();
-    ctx.arc(70, 70, 10, 0, Math.PI * 2);
+    ctx.arc(70, 70, 20, 0, Math.PI, true);
     ctx.stroke();
 
     // 눈 그리기 (오른쪽)
     ctx.beginPath();
-    ctx.arc(130, 70, 10, 0, Math.PI * 2);
+    ctx.arc(130, 70, 20, 0, Math.PI, true);
     ctx.stroke();
 
     // 입 그리기
